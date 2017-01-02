@@ -1,0 +1,113 @@
+
+Emacs Shortcuts
+===============
+
+C-x o		Switch to other window
+C-x 1		Keep one window (the current window)
+C-g 		Cancel any command
+
+C-h w		Where is command
+
+C-h c		Describe a command
+C-h k		Help on a key bounding
+
+C-h a		Command Apropos. search commands by key words.
+C-h m		Help on a mode
+C-h ?		Help on help
+C-h r		Emacs manual
+
+C-M-v		Scroll another window without moving cursor into the window (Shift - reverse order)
+
+
+Emacs Configurations to fork
+============================
+SpaceMacs
+https://github.com/syl20bnr/spacemacs
+
+purcell's emacs.d: An Emacs configuration bundle with batteries included
+https://github.com/purcell/emacs.d
+
+redguardtoo's emacs.d
+https://github.com/redguardtoo/emacs.d
+
+Sacha Chua's Emacs configuration
+http://pages.sachachua.com/.emacs.d/Sacha.html
+
+Another Emacs config using Org Mode in Github
+https://github.com/larstvei/dot-emacs
+
+Emacsformacosx Tips and Tricks
+https://emacsformacosx.com/tips
+
+More Emacs Configurations
+=========================
+Michael's Emacs Config
+https://github.com/K0HAX/configs/blob/master/emacs/config.org
+
+Aaron Bedra's Emacs 24 Configuration
+http://aaronbedra.com/emacs.d/
+
+Emacs Setup Tutorials
+=====================
+From Vim to Emacs in Fourteen Days
+http://blog.aaronbieber.com/2015/05/24/from-vim-to-emacs-in-fourteen-days.html
+Evil Mode: Or, How I Learned to Stop Worrying and Love Emacs
+https://www.youtube.com/watch?v=JWD1Fpdd4Pc&t=2s
+
+Setup Emacs
+http://jen20.com/2015/02/06/configuring-emacs-for-go-part-1.html
+https://github.com/jen20/emacs-dotfiles
+
+Emacs Introduction and Demonstration by Howard Abrams
+https://www.youtube.com/watch?v=B6jfrrwR10k
+Getting Started with Emacs
+http://www.howardism.org/Technical/Emacs/getting-started.html
+
+Emacs and Tmux
+http://perlstalker.vuser.org/blog/2012/10/16/emacsclient-and-tmux/
+
+
+Themes
+https://github.com/purcell/color-theme-sanityinc-tomorrow
+
+Emacs Themes
+https://emacsthemes.com/
+
+
+Emacs basics
+Emacs tutorials: https://www.youtube.com/playlist?list=PLxj9UAX4Em-IiOfvF2Qs742LxEK4owSkr
+http://www.howardism.org/Technical/Emacs/getting-started.html
+https://www.youtube.com/watch?v=B6jfrrwR10k
+https://github.com/technomancy/emacs-starter-kit
+https://wiki.archlinux.org/index.php/Emacs
+
+Emacs and Tmux
+http://perlstalker.vuser.org/blog/2012/10/16/emacsclient-and-tmux/
+https://www.emacswiki.org/emacs/tmux_for_collaborative_editing
+http://superuser.com/questions/382102/using-tmux-with-both-emacs-and-vim
+
+Emacs as a Python IDE
+http://www.jesshamrick.com/2012/09/18/emacs-as-a-python-ide/
+
+Emacs - Evil mode
+http://bling.github.io/blog/2013/10/27/emacs-as-my-leader-vim-survival-guide/
+http://juanjoalvarez.net/es/detail/2014/sep/19/vim-emacsevil-chaotic-migration-guide/
+http://stackoverflow.com/questions/8483182/evil-mode-best-practice
+http://bling.github.io/blog/2015/01/06/emacs-as-my-leader-1-year-later/
+
+Advanced Emacs
+Effective Emacs
+https://sites.google.com/site/steveyegge2/effective-emacs
+https://olabini.com/blog/2008/05/how-large-is-your-emacs/
+
+
+Tips:
+
+Set custom-file
+http://stackoverflow.com/questions/5052088/what-is-custom-set-variables-and-faces-in-my-emacs#5058752
+Set custom-file. (The custom-file is the file where Emacs saves customizations. If you don’t set a specific file for this, you will end up getting all customizations saved into .emacs which you really don’t want.) The code for this is simple. Just do (setq custom-file “the-file-name.el”)
+https://olabini.com/blog/2008/05/how-large-is-your-emacs/
+
+gnu emacs backup files
+https://snarfed.org/gnu_emacs_backup_files
+
