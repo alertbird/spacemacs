@@ -11,9 +11,13 @@ git remote add upstream git@github.com:syl20bnr/spacemacs.git
 
 git remote -v
 
-* Create a symbolic link
+* Create a symlink for .emacs.d
 
 ln -s /Users/patrick.zhang/WorkspacesGH/spacemacs.pz ~/.emacs.d
+
+* Create a symlink for .spacemacs
+
+ln -s /Users/patrick.zhang/WorkspacesGH/spacemacs.pz/.spacemacs ~/.spacemacs
 
 cd ~/.emacs.d
 
