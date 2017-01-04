@@ -291,6 +291,9 @@ executes.
  This function is mostly useful for variables that need to be set
 before packages are loaded. If you are unsure, you should try in setting them in
 `dotspacemacs/user-config' first."
+  ;; this allows to use the right ALT key to write symbols,
+  ;; and the left ALT key can still be used as the Meta key.
+  (setq-default mac-right-option-modifier nil)
   )
 
 (defun dotspacemacs/user-config ()
