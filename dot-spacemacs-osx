@@ -297,7 +297,6 @@ before packages are loaded. If you are unsure, you should try in setting them in
   ;; this allows to use the right ALT key to write symbols,
   ;; and the left ALT key can still be used as the Meta key.
   (setq-default mac-right-option-modifier nil)
-
   )
 
 (defun dotspacemacs/user-config ()
@@ -307,6 +306,11 @@ layers configuration.
 This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
+
+  ;; Additional configurations for Git layer
+  ;; http://spacemacs.org/layers/+source-control/git/README.html
+  ;; Use Spacemacs to edit git commit messages
+  (global-git-commit-mode t)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
