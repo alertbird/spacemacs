@@ -1,0 +1,29 @@
+
+Installation
+
+* Check out and set up upstream
+
+git clone git@github.com:alertbird/spacemacs.git /Users/patrick.zhang/WorkspacesGH/spacemacs.pz
+
+cd /Users/patrick.zhang/WorkspacesGH/spacemacs.pz
+
+git remote add upstream git@github.com:syl20bnr/spacemacs.git
+
+git remote -v
+
+* Create a symbolic link
+
+ln -s /Users/patrick.zhang/WorkspacesGH/spacemacs.pz ~/.emacs.d
+
+cd ~/.emacs.d
+
+* Keep the fork in sync
+
+git fetch upstream
+
+git rebase upstream/master
+
+* Unlink if needed
+
+unlink ~/.emacs.d
+
