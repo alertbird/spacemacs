@@ -1,0 +1,38 @@
+* Spacemacs Notes
+  
+    I would like to note down some basic things that I need to use. It will help
+    me to remember quickly and review them again after a while.
+
+** Help
+   SPC h SPC      Open Spacemacs help
+
+   SPC h d k      Describe key
+   C-h k          Describe key
+   
+   SPC h d f      Describe function
+   C-h f          Describe function
+
+
+** Layers
+*** OSX layer
+*** Org-mode
+*** Magit
+
+* Spacemacs basics
+
+** Eivind Fonn
+
+   My Spacemacs: https://www.youtube.com/watch?v=HKF41ivkBb0&t=53s
+   A basic walkthrough of my favourite Spacemacs customizations, keybindings, features and layers.
+   .spaces file: https://github.com/TheBB/spacemacs-layers/blob/master/init.el
+
+*** Todos:
+**** Add smex layer
+
+**** Enable auto-completion layer
+     
+**** Delete comments for the links
+
+**** Move the .spacemacs file to a private repo as spacemacs.el
+
+**** Copy some settings from .spacemacs file
