@@ -17,6 +17,14 @@
 *** OSX layer
 *** Org-mode
 *** Magit
+*** Smex
+    
+**** Key bindings
+
+| Key Binding | Description                                |
+|-------------+--------------------------------------------|
+| ~SPC :~     | all Emacs commands (interactive functions) |
+| ~SPC m :~   | current major mode commands                |
 
 * Spacemacs basics
 
