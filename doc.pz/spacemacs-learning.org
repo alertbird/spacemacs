@@ -21,10 +21,10 @@
     
 **** Key bindings
 
-| Key Binding | Description                                |
-|-------------+--------------------------------------------|
-| ~SPC :~     | all Emacs commands (interactive functions) |
-| ~SPC m :~   | current major mode commands                |
+     | Key Binding | Description                                |
+     |-------------+--------------------------------------------|
+     | ~SPC :~     | all Emacs commands (interactive functions) |
+     | ~SPC m :~   | current major mode commands                |
 
 * Spacemacs basics
 
@@ -35,7 +35,7 @@
    .spaces file: https://github.com/TheBB/spacemacs-layers/blob/master/init.el
 
 *** Todos:
-**** Add smex layer
+**** TODO Add smex layer
 
 **** Enable auto-completion layer
      
