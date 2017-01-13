@@ -1,7 +1,7 @@
 
-Installation
+# Setup
 
-* Check out and set up upstream
+# Check out and set up upstream
 
 git clone git@github.com:alertbird/spacemacs.git /Users/patrick.zhang/WorkspacesGH/spacemacs.pz
 
@@ -11,13 +11,16 @@ git remote add upstream git@github.com:syl20bnr/spacemacs.git
 
 git remote -v
 
-* Create a symlink for .emacs.d
+# Create a symlink for .emacs.d
 
 ln -s /Users/patrick.zhang/WorkspacesGH/spacemacs.pz ~/.emacs.d
 
-* Create a symlink for .spacemacs
+# Check out spacemac.d from BB 
+# Create a symlink for .spacemacs
 
-ln -s /Users/patrick.zhang/WorkspacesGH/spacemacs.pz/dot-spacemacs-osx ~/.spacemacs
+# ln -s /Users/patrick.zhang/WorkspacesGH/spacemacs.pz/dot-spacemacs-osx ~/.spacemacs
+
+ln -s /Users/patrick.zhang/WorkspacesBB/spacemacs.d/spacemacs.el ~/.spacemacs
 
 cd ~/.emacs.d
 

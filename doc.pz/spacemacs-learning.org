@@ -35,12 +35,15 @@
    .spaces file: https://github.com/TheBB/spacemacs-layers/blob/master/init.el
 
 *** Todos:
-**** TODO Add smex layer
+**** DONE Add smex layer
+     CLOSED: [2017-01-05 Thu 10:49]
 
-**** Enable auto-completion layer
+**** DONE Enable auto-completion layer
+     CLOSED: [2017-01-05 Thu 10:49]
      
-**** Delete comments for the links
+**** DONE Delete comments for the links
+     CLOSED: [2017-01-05 Thu 10:49]
 
 **** Move the .spacemacs file to a private repo as spacemacs.el
 
-**** Copy some settings from .spacemacs file
+**** Copy some settings from .spacemacs file in the video.
