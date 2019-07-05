@@ -160,31 +160,9 @@ config variable to ~t~. This activates your pipenv before enabling the
 lsp backend.
 
 *** Microsoft python language server
-Paraphrasing the instructions provided by the author of the =lsp-python-ms= package:
-
-#+BEGIN_SRC sh
-  git clone https://github.com/Microsoft/python-language-server.git
-  cd python-language-server/src/LanguageServer/Impl
-  dotnet build -c Release
-  dotnet publish -c Release -r <RUNTIME>
-#+END_SRC
-
-where ~<RUNTIME>~ is one of the [[https://docs.microsoft.com/en-us/dotnet/core/rid-catalog][runtime IDs supported by dotnet core]]. One of ~linux-x64~, ~osx-x64~, ~win10-x64~ should
-cover most use cases.
-
-The default package configuration assumes the executable is located in a folder included in your system path.
-To use the latest built version in a cloned git repo, use the ~python-lsp-git-root~ config variable, e.g.:
-
-#+BEGIN_SRC elisp
-  (setq-default dotspacemacs-configuration-layers
-    '((python :variables
-              python-backend 'lsp
-              python-lsp-server 'mspyls
-              python-lsp-git-root "~/dev/python/python-language-server")))
-#+END_SRC
-
-N.B. If you're using Arch linux or a derivative distribution, you can install the =microsoft-python-language-server=
-package from the AUR.
+Microsoft python language server will be automatically installed in the =~/.emacs.d/mspyls=
+directory by the =ls-python-ms= package, when you use the python mode with the python lsp
+server backend =mspyls= for the first time.
 
 * Additional tools
 ** Syntax checking

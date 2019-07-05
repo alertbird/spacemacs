@@ -22,9 +22,6 @@ and `lsp'.")
   "Language server to use for lsp backend. Possible values are `pyls'
 and `mspyls'")
 
-(defvar python-lsp-git-root nil
-  "If non-nil, use a development version of the language server in this folder")
-
 (defvar python-pipenv-activate nil
   "If non-nil, activate pipenv before enabling backend")
 
